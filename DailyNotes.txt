@@ -1,0 +1,255 @@
+
+
+Language:
+=========
+
+Communication
+
+
+
+Programming Language:
+=====================
+Communication with Machine
+
+
+		hardware--->software-->set of programs-->PL
+
+
+			POP						OOP
+B,BCPl,C,COBOL,PHOTON...		C++,java,python,.net,.....
+
+
+oops features
+
+		performance		inheritance,polymorphisam
+		security		abstraction,encapsulation
+
+
+python?
+
+guido van rossam
+
+1989
+feb 20th 1991
+
+
+3.13.5
+
+welcome.java
+
+class Welcome{
+
+public static void main(String args[])
+{
+	System.out.println("Welcome to java");
+}
+}
+
+
+python: C,ABC
+
+1.functional programming features from C
+2.OOP features C++
+3.Scrpting language features from Shell Script
+4.modular programming from modula-3
+
+
+Diff Types of apps:
+
+1.desktop appllication 			 core python
+2.web application				django,flask...
+3.database application				PDBC
+4.networking apps
+5.gaming
+6.Data Analysis
+7.ML
+8.AI
+9.IOT
+..... 
+
+keywords 50+
+	
+		 30+
+
+Features of python:
+===================
+1.simple and easy to learn
+
+2.freeware and open soruce
+			jython,cpython,rubypython,...
+3.hign level
+
+4.platform independent		.py  PVM
+
+5.portability
+
+6.dynamic typed 		 a=123	
+
+7.OOP
+
+8.interpreted
+
+9.rich library
+
+
+
+
+Identifiers:
+=============
+a-z
+A-Z
+0-9
+_
+
+empid=123
+
+
+def m1():
+	
+
+class Test
+
+Reserved keywords
+
+import keyword
+
+keyword.kwlist
+
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 
+'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 
+'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 
+'try', 'while', 'with', 'yield']
+
+35
+
+Datatypes:
+===========
+
+
+			int marks=234; java static typed
+
+dynamic typed 	
+			 marks=444;
+			 
+Fundamental DT
+	int
+	float
+	complex		a+bj		3+6j
+	bool
+	str
+	bytes
+	range
+	bytesarray
+	
+	
+	type casting
+	
+			int()
+			float()--->decimal places
+			complex()
+			bool()
+			str()
+Advanced DT
+	
+	List
+	Set
+	tuple
+	frozenset
+	dict
+	
+	
+	
+		type()
+		print()
+		id()
+
+
+		[]
+	
+	all the fundamental datatypes are imuttable
+	
+	name ="sandeep"
+	name.concat("from hyderabad")	
+	
+	sandeep from hyderabad
+	
+	name=
+	
+	
+	List:
+	======
+	if we have a requirement to store group objects as a single entity where 
+			->duplicates are  allowed 
+			->insertion order is preserved 
+			->[]
+			->homogeneous and haterogeneous data 
+			->growable in nature or not fixed in size 
+			->list is muttable
+			
+			list=[12,4,2,6,57,66,90]
+			list=[12,True,2,"suresh",57,66,78.4]
+			append
+			remove
+
+	
+	Tuple:
+	=======
+	if we have a requirement to store group objects as a single entity where 
+			->duplicates are  allowed 
+			->insertion order is preserved 
+			->()
+			->homogeneous and haterogeneous data 
+			->not growable in nature or fixed in size 
+			->tuple is imuttable
+			
+emps=("suresh",123,"mahesh","naresh",False,"akash",78.23)
+type(emps)
+
+<class 'tuple'>
+
+
+	Set:
+	
+if we have a requirement to store group objects as a single entity where 
+			->duplicates are not allowed 
+			->insertion order is not  preserved 
+			->{}
+			->homogeneous and haterogeneous data 
+			->growable in nature or not fixed in size 
+			->set is muttable
+			
+			ids={12,4,2,6,57,66,90}
+				add
+				remove
+
+	FrozenSet:
+	
+if we have a requirement to store group objects as a single entity where 
+			->duplicates are not allowed 
+			->insertion order is not  preserved 
+			->frozenset
+			->homogeneous and haterogeneous data 
+			->not growable in nature or  fixed in size 
+			->frozenset is imuttable
+			
+			ids={12,4,2,6,57,66,90}
+				add
+				remove
+
+Dict:
+=====
+if we have a requirement to store group objects as a key,value			
+			->duplicate keys are not allowed values can be duplicate
+			->insertion order is not preserved 
+			->{key:value,key:value....}
+			->homogeneous and haterogeneous data  as k,v
+			->growable in nature or not fixed in size 
+			->dict is imuttable
+			
+
+
+functions:
+==========
+				name=""
+				def  m1():
+					print("am from m1 method")
