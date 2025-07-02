@@ -151,7 +151,7 @@ Fundamental DT
 			str()
 Advanced DT
 	
-	List
+	List	
 	Set
 	tuple
 	frozenset
@@ -236,7 +236,8 @@ if we have a requirement to store group objects as a single entity where
 				add
 				remove
 
-Dict:
+
+
 =====
 if we have a requirement to store group objects as a key,value			
 			->duplicate keys are not allowed values can be duplicate
@@ -253,3 +254,286 @@ functions:
 				name=""
 				def  m1():
 					print("am from m1 method")
+					
+					
+					dynamic typing
+					
+				int(input(""))	
+					
+					
+				keyword argumants
+				default arguments
+				keyword length arguments (dict)
+				arbitary/*
+				unpacking
+					
+					
+		Lambda Functions	(Functional Programming)		
+					
+				def squareIt(number):
+					square=number*number
+					return square					
+					
+			lambda args:expression		
+			
+			square=lambda a:a*a
+					
+				square(12)	
+					
+	List,dict,set,frozenset,tuple				
+					
+					r
+					w
+					a
+					x
+					b
+					t
+	CSV  
+	
+Object Oriented Programming:
+===========================	
+Class:
+======
+
+	class Employee:
+	
+		variables:.....
+		methods:...
+
+local and global
+
+instance variables		:the variable value which is varied from object to object ,eid,aadhar,pan,....
+class variables		    :the variable which is declared outside function and inside class
+local variables			:the variable which is declared inside the function/block
+	
+	
+instance method  :if we declare instance variables inside the method implementation will call that method as instance method,we can inside the class by using self and outside the class by using object reference  
+static method	 :these are utility methods where we will not define any instance/class variable and self/cls,we can acces these by using either classname/obj reference
+					@staticmethod
+class method     :@classmethod ,inside the method implementation we will define class/static variables by usinf cls and we can acces by using classname/obj reference	
+	
+	
+	
+Inheritance:
+============	
+
+	class Caluculator:
+		
+			10 methods
+
+
+
+    class MobileCaluculator(Caluculator):
+
+           5 methods
+
+
+
+	class laptopCalculator(MobileCaluculator):
+
+			10 methods
+
+
+
+Exception Handling:
+===================
+
+without exception handling
+
+1
+2
+3---->abnormal termination,System defined error message
+4
+
+
+
+10000
+
+with exception handling
+1
+2
+3---->normal termination,userfreindly error messages
+4
+
+10000
+
+
+try,except,finally,else,raise
+
+try
+	error code/risky code
+except
+	 handling code
+finally
+		cleanup code
+		
+	
+	raise-->to raise an error explicitly
+	 
+	 
+	 py--->file
+	 open
+	 write-->text
+	 read
+	 ....
+	 
+pickling  and unpickling
+			Object
+		py<--------->file
+			Object
+
+character classes:
+==================
+[abc]-->either a or b or c
+[^abc]-->except a b c
+[a-z]-->any lowercase
+[A-Z]-->any uppercase
+[a-zA-Z]-->any alphabet
+[0-9]-->any digit
+[a-zA-Z0-9]-->alpha numeric
+[^a-zA-Z0-9]-->alpha numeric
+
+
+predefined character classes
+===============================
+\s-->space
+\S-->except space
+\d-->[0-9]
+\D-->[^0-9]
+\w-->[a-zA-Z0-9]
+\W-->[^a-zA-Z0-9]
+
+Quantifiers:
+===========
+a  -->exactly one 'a'
+a+ -->atleast one 'a'
+a* --> (0-n)
+a? -->atmost one 'a'
+a{6}-->exactly six 'a'
+a{6,10}-->minimum 6 maximum 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zip and unzip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
